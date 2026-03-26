@@ -1,5 +1,5 @@
 # azure_inference_types
-Message adapters for Azure AI Inference–based applications
+OpenAI message type adapters for Azure AI Inference based applications
 
 ## Overview
 
