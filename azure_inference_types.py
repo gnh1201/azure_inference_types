@@ -1,4 +1,4 @@
-# Wrapper for OpenAI message types for implementing Azure AI Inference-based integration
+# OpenAI message types for Azure AI Inference based applications
 # Namhyeon Go <gnh1201@catswords.re.kr>
 # https://github.com/gnh1201/azure_inference_types
 from typing import List, Union
