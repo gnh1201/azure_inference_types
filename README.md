@@ -1,4 +1,7 @@
 # azure_inference_types
+
+[![Discord chat](https://img.shields.io/discord/359930650330923008?logo=discord)](https://discord.gg/Y9RYCWbTwA?utm_source=catswords)
+
 OpenAI message type adapters for Azure AI Inference based applications
 
 ## Overview
