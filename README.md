@@ -64,7 +64,7 @@ response = client.chat.completions.create(
 
 * `InferenceContext` acts as a container for messages
 * Each message type (`SystemMessage`, `UserMessage`, etc.) represents a role-based structure
-* `to_dict()` converts the entire message set into the format required by the OpenAI API
+* `to_list()` converts the entire message set into the format required by the OpenAI API
 
 ## Notes
 
