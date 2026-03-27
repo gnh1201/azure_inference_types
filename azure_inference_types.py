@@ -86,8 +86,8 @@ class InferenceContext:
     def developer(self, content: str):
         return self.add(DeveloperMessage(content))
 
-    # Generic dict export
-    def to_dict(self) -> List[dict]:
+    # Generic list<dict> export
+    def to_list(self) -> List[dict]:
         return [
             m.to_dict() if hasattr(m, "to_dict") else m
             for m in self.messages
