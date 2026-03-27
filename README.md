@@ -42,7 +42,7 @@ messages = InferenceContext([
 ])
 
 response = client.chat.completions.create(
-    messages=messages.to_dict(),
+    messages=messages.to_list(),
     max_tokens=4096,
     temperature=0,
     top_p=0.1,
@@ -57,7 +57,7 @@ response = client.chat.completions.create(
 * Message adapters for Azure AI Inference → OpenAI SDK compatibility
 * Minimal changes required for existing codebases
 * Clear and structured message construction
-* Built-in conversion via `to_dict()` for OpenAI API requests
+* Built-in conversion via `to_list()` for OpenAI API requests
 * Extensible design for additional backends or adapters
 
 ## How It Works
